@@ -26,7 +26,9 @@ Product.init(
       // price 
       price: 
       {
-        type: DataTypes.DECIMAL, 
+        // DECIMAL: precision and scale 
+        // 10 total num, how many num to the right (2) 
+        type: DataTypes.DECIMAL(10,2), 
         allowNull:false, 
         validate: 
         {
@@ -47,9 +49,13 @@ Product.init(
       // category_id 
       category_id: 
       {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         allowNull: false,
-
+        // added, works with or without 
+        // references: {
+        //   model: 'category', 
+        //   key: 'id'
+        // },
       },
   },
   {
