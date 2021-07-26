@@ -11,7 +11,7 @@ router.get('/', async(req, res) => {
   try{
     // Product has a linking to Product Tag but not Tag 
     const categoryData = await Product.findAll({
-      include: [{ model: Tag, through: ProductTag }, {model: Category}]
+      include: [{model: Category},{ model: Tag, through: ProductTag }]
     });
     res.json(categoryData)
    }catch(err)

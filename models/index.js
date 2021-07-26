@@ -19,7 +19,7 @@ Category.hasMany(Product, {
 
 // Products belongToMany Tags (through ProductTag)
 // fk is in product 
-Product.belongToMany(Tag, {
+Product.belongsToMany(Tag, {
   foreignKey: 'product_id',
   through: ProductTag
 });
@@ -27,7 +27,7 @@ Product.belongToMany(Tag, {
 // Tags belongToMany Products (through ProductTag)
 // going into model it is going through 
 // fk coming from product tag 
-Tag.belongToMany(Product, {
+Tag.belongsToMany(Product, {
   foreignKey: 'tag_id',
   through: ProductTag
 });
