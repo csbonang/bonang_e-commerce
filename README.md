@@ -1,5 +1,5 @@
 # bonang_e-commerce
-
+Programmer: Clarisse Bonang
 
 ## Team Profile Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,16 +17,13 @@ The ecommerce project has a back end for an e-commerce site. I used Express.js A
 ## Table of Content
 -------------------
 * [Video](#video)
-* [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
 ## Video 
-
-## Usage 
-know the command to run tests
+https://drive.google.com/file/d/19NomKv264ml-l_lNXHsYt48d2wHFqm3Y/view?usp=sharing 
 
 ## License 
 [MIT License](https://opensource.org/licenses/MIT)
