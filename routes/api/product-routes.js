@@ -130,6 +130,7 @@ router.delete('/:id', async(req, res) => {
     }); 
     console.log(ProductData); 
     res.json(ProductData); 
+    // res.status(200).json(tagData);  
    }
    catch(err)
    {
